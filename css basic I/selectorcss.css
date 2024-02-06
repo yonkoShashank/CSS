@@ -1,0 +1,90 @@
+pre
+{
+    background-color: orange;
+    display: inline;
+}
+.paraclass
+{
+    background-color: navy;
+    color: white;
+    display: inline;
+}
+#paraid
+{
+    background-color: rebeccapurple;
+    color: white;
+    display: inline;
+}
+p:hover
+{
+    background-color: orangered;
+    font-size: x-large;
+}
+.sectionclass
+{
+    background-color: orangered;
+    font-size: x-large;
+}
+#sectionid
+{
+    background-color: black;
+    text-shadow: 2px 3px 2px purple;
+}
+section
+{
+    text-align: center;
+}
+#idfont
+{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#idweight
+{
+    font-weight: 900;
+    font-style: italic;
+}
+@font-face
+{
+    font-family: myfont;
+    src: url(myfont.ttf);
+}
+#newfont
+{
+    font-family: myfont;
+    text-align: center;
+    text-emphasis: double-circle orange;
+}
+#unitsid1
+
+{
+/*    font-size: 3cm; */
+    font-size: 1mm;
+}
+#unitsid2
+{
+    font-size: 200%;
+}
+#unitsid3
+{
+    font-size: 0.5em;
+}
+#unitsid4
+{
+    font-size: 3rem;
+}
+#unitsid5
+{
+    font-size: 1vw;
+}
+#unitsid6
+{
+    font-size: 5vh;
+}
+#unitsid7
+{
+    font-size: 10%;
+}
+#unitsid8
+{
+    font-size: 1vw;
+}
