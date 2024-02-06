@@ -1,0 +1,43 @@
+#para1
+{
+    background-color: aquamarine;
+    padding-left: 30px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+    padding-right: 120px;
+    display: inline-block;
+}
+#para2
+{
+    background-color: goldenrod;
+    border-left: solid black 30px;
+    border-right: solid orangered 40px;
+    border-top: solid grey 50px;
+    border-bottom: solid aquamarine 60px;
+    display: inline-block;
+}
+#para3
+{
+    background-color: blueviolet;
+    margin:10%;
+    display:inline-block;
+    border: solid black 10px;   
+}
+#para4
+{
+    background-color: violet;
+    margin: 10%;
+    padding: 35px;
+    border: solid brown 10px;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    box-sizing: border-box;
+}
+#para5
+{
+    background-color: mediumblue;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
