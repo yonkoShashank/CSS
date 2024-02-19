@@ -1,0 +1,22 @@
+.divclass
+{
+    max-height: 200px;
+    border: 3px solid black;
+    overflow:scroll;    
+}
+.divclass2
+{
+    border: 1px solid black;
+    margin: 10px;
+    min-width: 20px;
+    min-height: 20px;
+
+}
+.divclass3
+{
+    border: 1px solid black;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    overflow: scroll;
+}
