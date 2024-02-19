@@ -1,0 +1,19 @@
+.divclass
+{
+    background-color: orangered;
+    transform:translateX(100px);
+    transform: translateY(200px);
+}
+.divclass2
+{
+    background-color: greenyellow;
+    transform:rotate(-45deg);
+}
+.divclass3
+{
+    background-color: green;
+    margin: 400px;
+    transform: scaleX(2);
+    transform: scaleY(10);
+    transform: skew(45deg);
+}
