@@ -1,0 +1,28 @@
+p
+{
+    position: static;
+}
+div
+{   display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    border: solid black 1px;
+}
+.boxclass
+{
+    position:relative;
+    left: 1500px;
+    top: 1000px;
+}
+.boxclass2
+{
+    position: relative;
+    top: 20px;
+    right: 50px;
+}
+.boxfixed
+{
+    position: fixed;
+    top: 5px;
+}
