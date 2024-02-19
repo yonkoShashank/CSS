@@ -1,0 +1,119 @@
+.divclass
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: linear-gradient(darkblue, darkred);
+}.divclass2
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: linear-gradient(to bottom left, gold, darkorange);
+}
+.divclass3
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: linear-gradient(30deg,blue,darkviolet);
+    background-image: linear-gradient(#FF1966,#DDDD45);
+    background-image: linear-gradient(rgb(255,0,0),rgb(10,25,155));
+    background-image: linear-gradient(to right,rgba(255,10,0,1),rgba(0,255,200,0));
+}
+.radialclass1
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: radial-gradient(darkred,darkorange,yellow);
+}
+.radialclass2
+{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    background-image: radial-gradient(yellow 30%,orange 30%,red);
+}
+.conicclass1
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image:conic-gradient(from 90deg,red,orange,yellow);
+}
+.conicclass2
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: conic-gradient(red 0deg,red 100deg,orange 100deg,orange 190deg,yellow);
+}
+.conicclass3
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: conic-gradient(red 0deg,red 90deg,orange 90deg, orange 180deg,yellow 180deg, yellow 270deg,pink 270deg,pink 360deg);
+}
+.conicclass4
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: conic-gradient(at 60%,brown,yellow,black);
+}
+.conicclass5
+{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    background-image: repeating-conic-gradient(red 2%,orange 5%,yellow 7%);
+}
+#textid
+{
+    text-shadow:3px 3px 2px #FF1966,6px 6px 6px #FF20FF;
+    text-align: center;
+}
+.divbox
+{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border: solid black 2px;
+    margin: 10px;
+    box-shadow:8px 8px 3px #FF1966,-8px 8px 2px #DDDD45,8px -8px 3px #ffff99;
+}
+.divbox2
+{
+    height: 200px;
+    width: 200px;
+    background-color: aquamarine;
+    border: solid black 3px;
+    margin: 40px;
+    box-shadow: 4px 5px 5px 4px #FF1966;
+}
+#para1
+{
+    height: 200px;
+    width: 200px;
+    border: solid black 3px;
+    overflow: auto ;
+}
+#para2
+{
+    min-height: 200px;
+    min-width: 200px;
+    border: solid black 3px;
+    overflow: auto;
+}

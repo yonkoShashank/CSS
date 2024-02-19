@@ -1,0 +1,41 @@
+#para1
+{
+    background-color: aqua;
+    transform: translateX(20px);
+    transform: translateY(100px);
+}
+#para2
+{
+    background-color: greenyellow;
+    transform: rotate(50deg);
+    text-align: center;
+}
+#para3
+{
+    background-color: goldenrod;
+    margin: 200px;
+    text-align: center;
+    transform: scaleX(10);
+    transform: scaleY(5);
+}
+
+#para4
+{
+    background-color: peachpuff;
+    margin: 200px;
+    transform: skewX(45deg);
+    transform: skewY(45deg);
+}
+#para5
+{
+    text-align: center;
+    background-color: blueviolet;
+    transform: matrix(3,2,2,3,20,20);
+}
+#span
+{
+    display: inline-block;
+    text-align: center;
+    background-color: blueviolet;
+    transform: matrix(3,2,2,3,20,20);
+}
