@@ -1,0 +1,15 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div
+{
+    height: 100vh;
+    width: 100vw;
+}
+#div
+{   
+    background-image: repeating-linear-gradient(-45deg,#256A71,#000 50px);
+}
