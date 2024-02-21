@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+img
+{
+    width: 100vw;
+    height:100vh;
+    object-fit: cover;
+    
+}
+#divid1
+{
+    position:absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#divid2
+{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#divid3
+{
+    position:absolute;
+    bottom: 0px;
+    right: 0px;
+    color: white;
+}
+#divid4
+{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    color: white;
+}
+#divid5
+{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    color: white;
+}
