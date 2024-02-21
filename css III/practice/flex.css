@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.wrapper
+{
+    height: 600px;
+    background-color: goldenrod;
+    border: solid black 3px;
+    display: flex;
+    flex-direction:row;
+     flex-wrap: wrap;
+    /*flex-flow: row wrap; */
+    justify-content:center;
+    align-items: center;
+    align-content:baseline;
+    /* align-content:baseline; */
+}
+.box
+{
+    background-color: aqua;
+    border: solid black 2px;
+    width: 100px; 
+    margin: 10px; 
+}
+#box1
+{
+    flex-basis: 100px;
+    order: 3;
+ /* flex: 2 4 100px;    */
+    flex-grow: 2;
+    flex-shrink: 4;
+}
+#box2
+{
+    order:2;
+    flex-grow: 1;
+}
+#box3
+{
+    align-self: stretch;
+}
