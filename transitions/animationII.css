@@ -1,0 +1,18 @@
+:root
+{
+    --color1:#00ff;
+}
+.container
+{
+    display: grid;
+    background-color: aqua;
+    height: calc(100px + 1rem);
+    width: min(50% , 200px);
+}
+.box
+{
+    background-color: yellow;
+    width: max(20% , 150px);
+    font-size: 2rem;
+    color: var(--color1);
+}
