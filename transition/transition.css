@@ -1,0 +1,32 @@
+.outer
+{
+    background-color: blue;
+    width: 100vw;
+    height: 300px;
+}
+.inner
+{
+    background-color: aqua;
+    width: 100px;
+    height: 200px;
+    transition: background-color,width 5s ease-in-out 0.2s;
+    /* transition-property:background-color, width;
+    transition-duration: 10s;
+    transition-timing-function:ease;
+    transition-delay: 0.1s; */
+}
+.inner:hover
+{
+    background-color: goldenrod;
+    width: 100vw;
+}
+/* .inner:hover
+{
+    background-color: purple;
+    transition-duration: 5s;
+    width: 100%;
+    transition-delay: 1s;
+    transition-timing-function: ease-out;
+    transform: rotateX(20deg) rotateY(45deg) scale(1.2);
+    animation-direction: alternate;
+} */
